@@ -13,7 +13,7 @@ const MyCarousal = ({ shouldApplyparticles }) => {
         <img className="d-block w-100 custom-img" src={Slide3} alt="Third slide" />
         :
         (
-          <Carousel controls={false} indicators={false} interval={2500} pause={"hover"}>
+          <Carousel controls={false} indicators={false} interval={2500} pause={false}>
             <Carousel.Item>
               <img className="d-block w-100 custom-img" src={Slide2} alt="First slide" />
             </Carousel.Item>
