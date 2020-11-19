@@ -16,7 +16,7 @@ hr {
   z-index: 9;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 425px) {
   .container-box {
     width: 100%;
   }

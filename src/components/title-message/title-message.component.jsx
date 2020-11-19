@@ -29,12 +29,12 @@ const MyTitleMessage = styled.h1`
       letter-spacing: 2px;
     }
 
-    @media only screen and (max-width: 375px){
+    @media only screen and (max-width: 425px){
       .main{
-        font-size: 30px;
+        font-size: 35px;
       }
       .sub{
-        font-size: 15px;
+        font-size: 18px;
       }
     }
   }
