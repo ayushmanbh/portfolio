@@ -16,6 +16,12 @@ hr {
   z-index: 9;
 }
 
+@media only screen and (max-width: 375px) {
+  .container-box {
+    width: 100%;
+  }
+}
+
 .particles-box {
   position: absolute;
   top: 0;

@@ -28,6 +28,15 @@ const MyTitleMessage = styled.h1`
       font-size: 27px;
       letter-spacing: 2px;
     }
+
+    @media only screen and (max-width: 375px){
+      .main{
+        font-size: 30px;
+      }
+      .sub{
+        font-size: 15px;
+      }
+    }
   }
 `;
 
