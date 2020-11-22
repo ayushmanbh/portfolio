@@ -31,11 +31,10 @@ const Experience = () => {
                     <br />
                     <strong> Description </strong>
                     <ul className="text-left">
-                      <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.</li>
-                      <li><strong>Developed</strong> automation system to create SQL bulk query scripts that
-                        increased efficiency by 80% and decreased working hours from 4 hours to 30 mins per task.
+                      <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across enterprise level application.</li>
+                      <li><strong>Developed</strong> Chatbot/IVR modules in contact center environment.
                       </li>
-                      <li><strong>Provided</strong> application maintenance while working as `Production Support`.
+                      <li><strong>Provided</strong> assistance to senior colleagues according to changes in client specifications.
                       </li>
                       <li><strong>Performed</strong> CRUD operations on multiple databases to load/ remove data according
                       to the business requirements.</li>
