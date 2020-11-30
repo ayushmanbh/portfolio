@@ -61,7 +61,7 @@ const TimeLine = () => {
                         <ul className="list-styles pt-1">
                           <li>Top 20 repository results</li>
                           <li>Powered by React and Bootstrap</li>
-                          <li>Respoisive Design</li>
+                          <li>Responsive Design</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -366,7 +366,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Rrealtime chat app using web sockets.
+                        <strong>Description:</strong> Realtime chat app using web sockets.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
