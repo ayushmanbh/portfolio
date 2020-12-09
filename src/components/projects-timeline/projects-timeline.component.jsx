@@ -10,6 +10,7 @@ import L_GITHUB_REPO_SEARCH from "../../assets/img/projects/github_repo_search.w
 import L_PORTFOLIO from "../../assets/img/projects/portfolio.webp";
 import L_URL_SHORTNER from "../../assets/img/projects/url_shortener.webp";
 import L_WEATHER_SERVICE from "../../assets/img/projects/weather_service.webp";
+import L_NORONA_SHOP from "../../assets/img/projects/noronaShop.webp"
 
 
 // skills
@@ -23,6 +24,7 @@ import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
 import L_NETLIFY from "../../assets/img/skills/netlify.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
+import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 
 
 import "./projects-timeline.styles.css";
@@ -33,6 +35,139 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+          {/* Project: Ecommerce site in MERN stack */}
+          <ImageEvent
+            date="09/12/2020"
+            className="text-center"
+            text="NoRona Shop"
+            src={L_NORONA_SHOP}
+            alt="Ecommerce project in mern stack"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Ecommerce platform with shopping cart using MERN stack
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>User Authentication</li>
+                          <li>Persistent cart</li>
+                          <li>Responsive Design</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GIT}
+                                alt="Github API"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              GitHub
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NETLIFY}
+                                alt="Netlify"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Netlify
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NODE_JS}
+                                alt="Nodejs"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Nodejs
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MONGODB}
+                                alt="Mongodb"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              MongoDB
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://norona.netlify.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/ayushmanbh/ecommerce-react-frontend"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
           {/* Project: Github repo search in react */}
           <ImageEvent
             date="09/11/2020"
