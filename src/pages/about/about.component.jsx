@@ -21,8 +21,8 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Ayushman Bhardwaj</strong>
-                <br />A Computer Science Graduate and a passionate developer, graduated from UPES, Dehradun, India. I am a Full Stack Web Developer with HTML, CSS, JavaScript, React.js, Express.js, Node.js, and MongoDB as my tech stack.
+                Hi there! My name is <strong>&nbsp;Ayushman Bhardwaj</strong>
+                <br />A Computer Science graduate from UPES, Dehradun, India. Currently working as a Programmer Analyst in Cognizant, learning to improve digital customer experience through contact center technology. I am passionate about Web and Mobile Development using JavaScript. I aspire to be a Full Stack Web Developer with HTML, CSS, JavaScript, React.js, Express.js, Node.js, and MongoDB as my tech stack.
                 <br />
                 In 2020, I successfully completed my Engineering with specialization in 'Cloud Computing and Virtualization Technology'.
                 <br />
