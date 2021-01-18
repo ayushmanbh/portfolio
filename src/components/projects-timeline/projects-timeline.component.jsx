@@ -11,7 +11,8 @@ import L_PORTFOLIO from "../../assets/img/projects/portfolio.webp";
 import L_URL_SHORTNER from "../../assets/img/projects/url_shortener.webp";
 import L_WEATHER_SERVICE from "../../assets/img/projects/weather_service.webp";
 import L_NORONA_SHOP from "../../assets/img/projects/noronaShop.webp"
-
+import L_INVOICE from "../../assets/img/projects/invoice.webp"
+import L_BINGO from "../../assets/img/projects/bingoD.webp"
 
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
@@ -25,6 +26,8 @@ import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
 import L_NETLIFY from "../../assets/img/skills/netlify.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
+import L_JS from "../../assets/img/skills/javascript.svg";
+import L_SASS from "../../assets/img/skills/sass-1.svg";
 
 
 import "./projects-timeline.styles.css";
@@ -35,6 +38,189 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+
+          {/* Project: Bingo!-Search app */}
+          <ImageEvent
+            date="17/01/2021"
+            className="text-center"
+            text="Bingo search"
+            src={L_BINGO}
+            alt="Bingo! - A Search App"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Bingo! - A Search App Powered by Wikipedia
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Accessibility features</li>
+                          <li>Responsive Design</li>
+                          <li>Wikipedia Powered</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_SASS}
+                                alt="SASS"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              SASS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JS}
+                                alt="JavaScript"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              JavaScript
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://bingojs.netlify.app"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/ayushmanbh/javascript-search-app"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+
+
+          {/* Project: Invoive Manager */}
+          <ImageEvent
+            date="12/12/2020"
+            className="text-center"
+            text="Invoice manager"
+            src={L_INVOICE}
+            alt="Invoice manager in react"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Create and manage all your invoices at one place.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Google login</li>
+                          <li>Live cost calculator while creating invoice</li>
+                          <li>Filter invoices</li>
+                          <li>Download invoice as pdf</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://invoicing.netlify.app"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/ayushmanbh/invoice-manager-react"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+
           {/* Project: Ecommerce site in MERN stack */}
           <ImageEvent
             date="09/12/2020"
