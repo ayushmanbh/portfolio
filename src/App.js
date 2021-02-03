@@ -30,7 +30,7 @@ function App() {
     const handleApplyParticle = () => {
       setWidth(window.innerWidth)
       setShouldApplyParticles(width >= ApplyParticlesAfterWindowSize)
-      console.log(`app.js width ${width} || shouldApplyparticles ${shouldApplyparticles}`)
+      // console.log(`app.js width ${width} || shouldApplyparticles ${shouldApplyparticles}`)
     }
     window.addEventListener('resize', handleApplyParticle);
 
