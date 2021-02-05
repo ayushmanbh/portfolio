@@ -84,10 +84,10 @@ function App() {
       </div>
       <div id="projects">
         <Container className="container-box rounded">
-          <Slide bottom duration={500}>
-            <hr />
-            <TimeLine />
-          </Slide>
+
+          <hr />
+          <TimeLine />
+
         </Container>
       </div>
       <div id="contact">
