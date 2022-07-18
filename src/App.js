@@ -15,7 +15,8 @@ import Roll from "react-reveal/Roll";
 import { Parallax } from 'react-parallax';
 import BgImage from "./assets/img/parallex/background.webp";
 
-import Particles from "react-particles-js";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
 import { particlesOptions } from "./particlesOptions";
 
 import './App.css';
@@ -46,7 +47,10 @@ function App() {
       {shouldApplyparticles ? (
         <Particles
           className="particles particles-box"
-          params={particlesOptions}
+          init={async (main) => {
+            await loadFull(main);
+          }}
+          options={particlesOptions}
         />
       ) : null}
       <div id='about'>
