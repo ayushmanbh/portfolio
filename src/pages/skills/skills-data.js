@@ -10,8 +10,8 @@ import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
 // import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_FLASK from "../../assets/img/skills/flask.svg";
+// import L_DJANGO from "../../assets/img/skills/django.svg";
+// import L_FLASK from "../../assets/img/skills/flask.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 // import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import L_MSSQL from "../../assets/img/skills/mssql.svg";
@@ -20,7 +20,8 @@ import L_HEROKU from "../../assets/img/skills/heroku.svg";
 // import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
-// import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
+import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
+import L_ANT from "../../assets/img/skills/ant-design-logo-EAB6B3D5D9-seeklogo.com.png";
 // import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
 import L_NETLIFY from "../../assets/img/skills/netlify.svg";
@@ -76,6 +77,12 @@ export const skills = {
       imgSrc: L_REACT_ROUTER,
       skillName: "React Router",
     },
+    {
+      link: "https://ant.design",
+      imgAltText: "ANT Design",
+      imgSrc: L_ANT,
+      skillName: "ANT Design",
+    },
     // {
     //   link: "https://material-ui.com/",
     //   imgAltText: "Material-UI",
@@ -110,18 +117,18 @@ export const skills = {
       imgSrc: L_EXPRESS,
       skillName: "Express",
     },
-    {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
-    },
-    {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
-      imgSrc: L_FLASK,
-      skillName: "Flask",
-    },
+    // {
+    //   link: "https://www.djangoproject.com/",
+    //   imgAltText: "Django",
+    //   imgSrc: L_DJANGO,
+    //   skillName: "Django",
+    // },
+    // {
+    //   link: "https://flask.palletsprojects.com/",
+    //   imgAltText: "Flask",
+    //   imgSrc: L_FLASK,
+    //   skillName: "Flask",
+    // },
   ],
   hostingPlatforms: [
     {
@@ -156,12 +163,12 @@ export const skills = {
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
-    // {
-    //   link: "https://www.typescriptlang.org/",
-    //   imgAltText: "TypeScript",
-    //   imgSrc: L_TYPESCRIPT,
-    //   skillName: "TypeScript",
-    // },
+    {
+      link: "https://www.typescriptlang.org/",
+      imgAltText: "TypeScript",
+      imgSrc: L_TYPESCRIPT,
+      skillName: "TypeScript",
+    },
     {
       link: "https://www.python.org/",
       imgAltText: "Python",
