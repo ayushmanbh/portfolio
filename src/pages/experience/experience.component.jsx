@@ -160,7 +160,7 @@ const Experience = () => {
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
                   <Card.Title className="text-center">
-                    Backend Developer
+                    Node Js Developer Intern
                   </Card.Title>
                 </div>
                 <div>
